@@ -16,7 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Login"></activity>
+        <activity android:name=".Login" />
+        <activity android:name=".ChatDashboard"
+           android:label="ChatDashboard"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity android:name=".TrainBot"
+            android:label="TrainBot"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
