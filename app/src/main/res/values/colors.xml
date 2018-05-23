@@ -2,6 +2,7 @@
 <resources>
     <color name="colorPrimary">#ffffff</color>
     <color name="colorPrimaryDark">#4a0083</color>
-    <color name="colorAccent">#e35384</color>
-    <color name="foreground_material_light">#fe1a19</color>
+    <color name="colorAccent">#552269</color>
+    <color name="bubbleColor">#ECEFF1</color>
+    <color name="material_light">#fe1a19</color>
 </resources>

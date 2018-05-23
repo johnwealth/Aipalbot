@@ -9,14 +9,9 @@
     android:background="@drawable/login_gradients"
     >
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <ImageView
@@ -26,7 +21,8 @@
                 android:padding="16dp"
                 android:layout_marginTop="48dp"
                 android:layout_marginBottom="20dp"
-                android:src="@drawable/ic_people_red_24dp"/>
+                android:src="@drawable/aipalbot"
+                android:contentDescription="TODO" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -40,7 +36,7 @@
                 android:hint="Username"
                 android:textColorHint="#FFFFFF"
                 android:maxLines="1"
-                android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+                android:drawableStart="@drawable/ic_mail_outline_black_24dp"
                 android:layout_marginTop="70dp"/>
 
             <View
@@ -60,7 +56,7 @@
                 android:hint="Password"
                 android:textColorHint="#FFFFFF"
                 android:maxLines="1"
-                android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+                android:drawableStart="@drawable/ic_lock_outline_black_24dp"
                 android:layout_marginTop="20dp"/>
             <View
                 android:layout_width="match_parent"
@@ -115,11 +111,10 @@
                     android:clickable="true"
                     android:layout_toEndOf="@+id/forget_password"
                     android:layout_marginBottom="16dp"
-                    android:layout_marginLeft="45dp"/>
+                    android:layout_marginStart="45dp"/>
 
             </RelativeLayout>
 
         </LinearLayout>
-    </ScrollView>
 
 </LinearLayout>

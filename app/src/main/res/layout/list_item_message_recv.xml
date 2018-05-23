@@ -9,15 +9,23 @@
         android:layout_width="27dp"
         android:layout_height="27dp"
         android:id="@+id/ai_bot"
-        android:src="@drawable/aipalbot"/>
+        android:src="@drawable/aipalbot"
+        android:contentDescription="TODO" />
 
-    <android.support.v7.widget.RecyclerView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <com.github.library.bubbleview.BubbleImageView
         android:id="@+id/text_message"
-        android:textColor= "#ffff"
+        android:layout_width="29dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/ai_bot"
+        android:layout_marginEnd="-2dp"
         android:padding="10dp"
-        android:scrollbarStyle="outsideOverlay"
-        android:transcriptMode="normal" />
+        android:textColor="#ffff"
+        app:angle="8dp"
+        app:arrowCenter="true"
+        app:arrowHeight="10dp"
+        app:arrowLocation="right"
+        app:arrowPosition="14dp"
+        app:arrowWidth="8dp"
+        app:bubbleColor="#567864" />
 
 </RelativeLayout>

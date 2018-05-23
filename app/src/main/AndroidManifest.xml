@@ -2,11 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.aipalbot.aipalbot">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Splash">
@@ -17,14 +19,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login" />
-        <activity android:name=".ChatDashboard"
-           android:label="ChatDashboard"
-            android:parentActivityName=".MainActivity"
-            />
-        <activity android:name=".TrainBot"
-            android:label="TrainBot"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".ChatDashboard"/>
+        <activity android:name=".TrainBot"/>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

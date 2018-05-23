@@ -4,16 +4,22 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <android.support.v7.widget.RecyclerView
+    <com.github.library.bubbleview.BubbleImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
         android:id="@+id/text_message"
         android:textColor= "#ffff"
         android:padding="10dp"
-        android:layout_alignParentRight="true"
-        android:scrollbarStyle="outsideOverlay"
-        android:transcriptMode="normal" />
+        android:layout_alignParentEnd="true"
+        app:angle="8dp"
+        app:arrowWidth="8dp"
+        app:arrowHeight="8dp"
+        app:arrowPosition="14dp"
+        app:arrowLocation="left"
+        app:arrowCenter="true"
+        app:bubbleColor="#546E7A"
         />
+
 
 </RelativeLayout>

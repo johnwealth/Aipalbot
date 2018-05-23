@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Aipalbot</string>
     <string name="greetings">Aipalbot Say Hi</string>
+    <string name="simsimi_api">0a10934b–af70-4e25-8ca5-60d03180e1db</string>
 </resources>
 

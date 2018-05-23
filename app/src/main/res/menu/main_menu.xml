@@ -12,33 +12,33 @@
         android:icon="@drawable/ic_forum_black_24dp"
         android:title="Chat with Microbot"
         android:visible="true"
-        app:showAsAction="always" />
+        app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/action_train"
         android:icon="@drawable/ic_blur_linear_black_24dp"
         android:title="Train Microbot"
-        app:showAsAction="always" />
+        app:showAsAction="ifRoom" />
 
 
     <item
         android:id="@+id/action_analytics"
         android:icon="@drawable/ic_poll_black_24dp"
         android:title="Data Analytics"
-        app:showAsAction="always" />
+        app:showAsAction="ifRoom" />
 
 
     <item
         android:id="@+id/action_unpublished"
         android:icon="@drawable/ic_cloud_download_black_24dp"
         android:title="Unpublished"
-        app:showAsAction="always" />
+        app:showAsAction="ifRoom" />
 
 
     <item
         android:id="@+id/action_published"
         android:icon="@drawable/ic_cloud_upload_black_24dp"
         android:title="Published"
-        app:showAsAction="always"
+        app:showAsAction="ifRoom"
         />
 </menu>
